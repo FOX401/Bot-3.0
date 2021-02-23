@@ -300,7 +300,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-					wait: '❬❗❭ Espera ai',
+					wait: '❬❗❭ Espere',
 					success: '️❬ ✔ ❭ Sucesso 🖤',
 					levelon: '❬ ✔ ❭ *leveling* *ativado*',
 					leveloff: ' ❬ X ❭  *leveling* *desativado*',
@@ -324,11 +324,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5568999959734@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5568999959734@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5568999959734@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5568999959734@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5568999959734@s.whatsapp.net","5521998250174@s.whatsapp.net","5511982797879@s.whatsapp.net"]
+			const ownerNumber = ["5521979664189@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5521979664189@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5521979664189@s.whatsapp.net",,"558494740630@s.whatsapp.net","5521965796167@s.whatsapp.net","558182133322@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -1737,7 +1737,7 @@ const get = require('got')
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *Sr. Dark BOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *FOXBOT* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -3605,7 +3605,7 @@ break
 					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					me = client.user
 					uptime = process.uptime()
-					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* DARKBOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* 🐊🚩\n*──────────────────*` , text, { quoted: mek, })
+					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* FOXBOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* 🐊🚩\n*──────────────────*` , text, { quoted: mek, })
 					break
 					case 'dellvip':
 					if (!isOwner) return reply(mess.only.ownerB)
@@ -3817,8 +3817,8 @@ break
 					break
 				case 'dono':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/AnizaD7.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* 𝐷𝐴𝑅𝐾⃖ ☔\n*YOUTUBE:* https://bit.ly/2MD43V2\n*WPP:* wa.me/+5521979664189\n*INSTA:* to sem\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
+					buffer = await getBuffer(`http://imgur.com/gallery/Hrv2x1R`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* 𝐹𝑂𝑋 ☔\n*YOUTUBE:* https://youtube.com/channel/UC6B_ThRGhMPzz4EmSjJcMaA\n*WPP:* wa.me/+5521979664189\n*INSTA:* to sem\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
