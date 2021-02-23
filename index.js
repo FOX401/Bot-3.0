@@ -324,11 +324,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5521979664189@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5521979664189@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5521979664189@s.whatsapp.net","558494740630@s.whatsapp.net","558182133322@s.whatsapp.net"]
+			const ownerNumber = ["5568999959734@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5568999959734@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5568999959734@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5568999959734@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5568999959734@s.whatsapp.net","5521998250174@s.whatsapp.net","5511982797879@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -1737,7 +1737,7 @@ const get = require('got')
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *FOXBOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *Sr. Dark BOT* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
