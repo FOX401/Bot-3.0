@@ -328,7 +328,7 @@ async function starts() {
 			const mod = [ownerNumber,"5521979664189@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["5521979664189@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5521979664189@s.whatsapp.net",,"558494740630@s.whatsapp.net","5521965796167@s.whatsapp.net","558182133322@s.whatsapp.net"]
+			const premium = ["5521979664189@s.whatsapp.net",,"558494740630@s.whatsapp.net","5521965796167@s.whatsapp.net","558182133322@s.whatsapp.net","557192400332@s.whatsapp.net","5512996090833@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
